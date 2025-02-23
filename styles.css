@@ -1,6 +1,58 @@
-img{
-    width: 200px;
-    height: 200px;
+.header__container{
+    width: 80%;
+    height: 30vh;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;    
+}
+.header__container--logo{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__container--logo--profile{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+.header__container--logo--profile{
+    font-family: "Caveat", serif;
+    font-size: 40px;
+}
+.header__container--logo--profile img{
+    width: 125px;
+    height: 125px;
     border-radius: 50%;
     background-color: black;
+}
+
+
+.header__container--logo--nav .nav__container--list {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+.header__container--logo--nav .nav__container--list a{
+    text-decoration: none;
+    color: #000000
+}
+
+
+.header__container--title{
+    margin-top: 30px;
+    text-align: center;
+    
+}
+.header__container--title h1{
+
+    font-size: 32px;
+}
+.header__container--title p{
+    color: #808080
+    
 }
