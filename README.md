@@ -15,7 +15,7 @@ Este es mi portafolio personal desarrollado con HTML y CSS. Aquí muestro mi exp
 ## 📂 Estructura del proyecto
 ```
 /basic-website
-│── index.html (Inicio)
+│── home.html (Inicio)
 │── projects.html (Proyectos)
 │── articles.html (Artículos)
 │── contact.html (Contacto)
