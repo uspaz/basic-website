@@ -69,12 +69,13 @@ li{
 /* Main styles */
 
 .main__container{
-    margin: 40px auto;
+    margin: 40px ;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
+    justify-content: center;
     line-height: 25px;
     letter-spacing: 0.085rem;
+    gap: 80px;
 }
 .main__container-title{
     text-align: center;
@@ -83,10 +84,14 @@ li{
     font-weight: 400;
 }
 
+/* Projects container*/
+
 .main__container--projects ul li{
     border-bottom: 1px solid #000000;
-    padding: 15px;
+    padding: 15px 30px;
 }
+
+/* Experience container */
 
 .main__container--experience{
     display: flex;
@@ -103,9 +108,10 @@ li{
 text-indent: 15px;
 }
 
+/* Education container */
 
-.main__container--education{
-    padding: 0 0 0 50px;
+.main__container--education p{
+    text-indent: 15px;
 }
 .main__container--education--courses{
     margin-top: 60px;
@@ -115,4 +121,10 @@ text-indent: 15px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+/* Footer  styles*/
+.footer__container{
+    text-align: center;
+    margin-top: 60px;
 }
